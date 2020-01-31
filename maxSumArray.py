@@ -14,7 +14,7 @@ def maxsum(nums):
 			greater_sum = current_sum
 		
 	return greater_sum
-
+###动态规划方法###
 def maxSubArray(nums):
         size = len(nums)
         if size == 0:
